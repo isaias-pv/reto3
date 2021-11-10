@@ -1,4 +1,4 @@
-export const BASE_URL           = "http://127.0.0.1:80/"
+export const BASE_URL           = "http://129.159.207.189:80/"
 export const URL_CATEGORY       = BASE_URL + "api/Category/"
 export const URL_CLOUD          = BASE_URL + "api/Cloud/"
 export const URL_CLIENT         = BASE_URL + "api/Client/"
