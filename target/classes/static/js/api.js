@@ -1,0 +1,6 @@
+export const BASE_URL           = "http://127.0.0.1:80/"
+export const URL_CATEGORY       = BASE_URL + "api/Category/"
+export const URL_CLOUD          = BASE_URL + "api/Cloud/"
+export const URL_CLIENT         = BASE_URL + "api/Client/"
+export const URL_MESSAGE        = BASE_URL + "api/Message/"
+export const URL_RESERVATION    = BASE_URL + "api/Reservation/"

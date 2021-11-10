@@ -1,6 +1,5 @@
 com\usa\reto\Service\ServiceAdmin.class
 com\usa\reto\Controller\ControllerClient.class
-com\usa\reto\Model\Score.class
 com\usa\reto\Controller\ControllerCategory.class
 com\usa\reto\Repository\RepositoryCloud.class
 com\usa\reto\RetoApplication.class
