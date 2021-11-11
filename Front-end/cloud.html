@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nubes</title>
+    <!-- JavaScript -->
+    <script type="module" src="js/cloud.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Nubes</h1>
+        <ul>
+            <li><a href="category.html">Ir a Categorias</a></li>
+            <li><a href="cloud.html">Ir a Nubes</a></li>
+            <li><a href="client.html">Ir a Clientes</a></li>
+            <li><a href="message.html">Ir a Mensajes</a></li>
+            <li><a href="reservation.html">Ir a Reservaciones</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <h2>Nubes</h2>
+        <div>
+            <div>
+                <h3>Agregar Nube</h3>
+                <input type="text" id="brand" placeholder="Brand" maxlength="45">
+                <input type="number" id="year" placeholder="Year" maxlength="4">
+                <select name="category" id="category"></select>
+                <input type="text" id="name" placeholder="Name" maxlength="45">
+                <input type="text" id="description" placeholder="Description" maxlength="250">
+            </div>
+            <button id = "postCloud">Guardar!</button>
+        </div>
+        <div>
+            <h3>Lista de Nubes</h3>
+            <button id = "getClouds"> Consultar</button> 
+            <table>
+                <thead>
+                    <tr>
+                        <td>Modelo</td>
+                        <td>Año</td>
+                        <td>Nombre de categoria</td>
+                        <td>Nombre de nube</td>
+                        <td>Descripción</td>
+                    </tr>
+                </thead>
+                <tbody id="loadClouds"></tbody>
+            </table>
+        </div>
+        
+    </section>
+</body>
+</html>
